@@ -1,8 +1,15 @@
-// Primitive
+// var a = 13
+// var b = 14
 
-// Sonlar = numbers = 1, 2.6, 78
-// Tekstlar= "lorem ipsum dolor et semit"
-// Undefined= 
-// Null
-// Symbol
-// BigInt=254845545454445
+// console.log(a + b)
+
+// const narx1 = 5
+// const narx2 = 6
+// umumiy = narx1 + narx2
+
+// console.log(umumiy)
+
+let x = 8
+let y = "14a"
+
+console.log(x + y)
