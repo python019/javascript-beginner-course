@@ -1,15 +1,19 @@
-// var a = 13
-// var b = 14
+// JavaScript Operators
 
-// console.log(a + b)
+let a = 18
+let b = 5
 
-// const narx1 = 5
-// const narx2 = 6
-// umumiy = narx1 + narx2
+console.log(a + b)
+console.log(a - b)
+console.log(a * b)
+console.log(a / b)
+console.log(++a)
+console.log(--a)
 
-// console.log(umumiy)
-
-let x = 8
-let y = "14a"
-
-console.log(x + y)
+// +
+// -
+// *
+// /
+// %
+// ++
+// --
