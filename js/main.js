@@ -1,16 +1,15 @@
 // JavaScript Operators
 
 let a = 18
-let b = 8
+let b = 18
 
-console.log(a += b)
-console.log(a -= b)
-console.log(a *= b)
-console.log(a /= b)
-console.log(a %= b)
+c = a == b ? "teng" : "teng emas"
 
-// += 
-// -=
-// *=
-// /=
-// %=
+console.log(c)
+
+// ? 
+// :
+
+
+
+
