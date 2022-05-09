@@ -1,18 +1,8 @@
-// JavaScript Functions
+// JavaScript Loops
 
-function salomlashish(a, b) {
-   alert(a + b)
+let i = 0
+
+while (i < 5) {
+   console.log("dastur ishlamoqda")
+   i++
 }
-
-salomlashish('Jasur ', 'Jo\'raqulov')
-
-
-function hisoblash(a, b) {
-   console.log(a + b)
-}
-
-hisoblash(12, 24)
-hisoblash(142, 24)
-hisoblash(12, 244)
-hisoblash(112, 24)
-hisoblash(12, 2234)
