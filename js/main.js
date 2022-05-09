@@ -1,29 +1,18 @@
-// JavaScript Shart Operatorlari
+// JavaScript Functions
 
-
-a = 30
-b = 30
-
-if (a > b) {
-   console.log("a katta b dan");
-}
-else if (a == b) {
-    console.log("a va b teng");
-}
-else {
-   console.log("b katta a dan");
+function salomlashish(a, b) {
+   alert(a + b)
 }
 
-yil = 2007
-hozir = 2022
-yosh = hozir - yil
+salomlashish('Jasur ', 'Jo\'raqulov')
 
-if (yosh > 18) {
-   console.log("To'laqonli o'zbek fuqarosi");
+
+function hisoblash(a, b) {
+   console.log(a + b)
 }
-else if (yosh > 16) {
-    console.log("Pasportga ega fuqaro");
-}
-else {
-   console.log("Hali kichkinamiz");
-}
+
+hisoblash(12, 24)
+hisoblash(142, 24)
+hisoblash(12, 244)
+hisoblash(112, 24)
+hisoblash(12, 2234)
