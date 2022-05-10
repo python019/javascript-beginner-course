@@ -1,19 +1,9 @@
 // JavaScript Strings
 
-// let tekst = "SUSYS JavaScript Kurslari"
-// console.log(tekst[1])
-// console.log(tekst.length)
+let tekst = "JavaScript kursi Beginner"
 
-// console.log(tekst.toLowerCase())
-// console.log(tekst.toUpperCase())
+console.log(tekst.indexOf('kursi'))
+console.log(tekst.search('kursi'))
 
-// console.log(tekst.slice(-8))
-// console.log(tekst.substring(8))
+console.log(tekst.includes('fasdasd'))
 
-// console.log(tekst.substr(3, 9))
-
-let malumot = "SUSYS JavaScript Kurslari"
-let yangi = malumot.replace(/susys/i, 'Jumayev Ubaydullo')
-
-console.log(malumot)
-console.log(yangi)
