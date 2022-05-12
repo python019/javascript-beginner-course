@@ -1,9 +1,12 @@
 // JavaScript Strings
 
-let tekst = "JavaScript kursi Beginner"
+let ism = "Ubaydullo"
+let familiya = "Jumayev"
 
-console.log(tekst.indexOf('kursi'))
-console.log(tekst.search('kursi'))
+let tekst = `JavaScript kursi Beginner
+lorem
+dolor ${(ism + familiya)} et
+semits`
 
-console.log(tekst.includes('fasdasd'))
 
+console.log(tekst)
