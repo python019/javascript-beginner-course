@@ -12,3 +12,6 @@ console.log(hodimlar)
 
 hodimlar[1] = "Temur"
 console.log(hodimlar)
+
+const malumot = ["Abbos", true, 21, ["salom", "javascript"]]
+console.log(malumot)
