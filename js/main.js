@@ -1,12 +1,14 @@
-// JavaScript Strings
+// JavaScript Arrays
 
-let ism = "Ubaydullo"
-let familiya = "Jumayev"
+let a1 = "Abbos"
+let a2 = "Akbar"
+let a3 = "Anvar"
 
-let tekst = `JavaScript kursi Beginner
-lorem
-dolor ${(ism + familiya)} et
-semits`
+let hodimlar = ["Abbos", "Akbar", "Anvar", ]
+console.log(hodimlar)
 
+hodimlar[3] = "Temur"
+console.log(hodimlar)
 
-console.log(tekst)
+hodimlar[1] = "Temur"
+console.log(hodimlar)
