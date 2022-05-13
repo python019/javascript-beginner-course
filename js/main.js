@@ -1,17 +1,16 @@
 // JavaScript Arrays
 
-let a1 = "Abbos"
-let a2 = "Akbar"
-let a3 = "Anvar"
 
-let hodimlar = ["Abbos", "Akbar", "Anvar", ]
-console.log(hodimlar)
+const aniqlash = window.prompt("Raqam tanlang", 1)
+const tillar = [["Python", 1995], ["Java", 1998]]
 
-hodimlar[3] = "Temur"
-console.log(hodimlar)
 
-hodimlar[1] = "Temur"
-console.log(hodimlar)
-
-const malumot = ["Abbos", true, 21, ["salom", "javascript"]]
-console.log(malumot)
+if (aniqlash == 1) {
+    console.log("Dasturlash tili " + tillar[0][0]
+    + " Ishlab chiqilgan yili " + tillar[0][1])
+} else if (aniqlash == 2) {
+    console.log("Dasturlash tili " + tillar[1][0]
+    + " Ishlab chiqilgan yili " + tillar[1][1])
+} else {
+    console.log("Bunday ma'lumot topilmadi")
+}
