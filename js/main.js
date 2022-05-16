@@ -1,6 +1,10 @@
-// JavaScript Browser Object Model (BOM)
+// JavaScript Location
 
-console.log(window.innerWidth)
-console.log(window.innerHeight)
 
-window.open('https://susysacademy.uz', 'meningOynam', 'width=500,height=300')
+console.log(window.location.href)
+
+// window.location.href 
+// window.location.hostname 
+// window.location.pathname 
+// window.location.protocol
+// window.location.assign()
