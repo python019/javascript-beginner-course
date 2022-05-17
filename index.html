@@ -13,12 +13,13 @@
     <h1> SUSYS </h1>
     <h3> JavaScript Beginner Course </h3>
 
-    <input type="button" value="Ortga" onclick="ortgaQaytish()">
+    <input type="button" value="Ishga tushurish" onclick="vaqt = setTimeout(myFunc, 3000)">
+    <input type="button" value="To'xtatish" onclick="clearTimeout(vaqt)">
 
     <script src="js/main.js"></script>
     <script>
-        function ortgaQaytish() {
-            window.history.back()
+        function myFunc(){
+            alert("Salom hammaga")
         }
     </script>
 </body>
